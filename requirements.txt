@@ -1,0 +1,8 @@
+crewai
+crewai-tools
+duckduckgo-search
+youtube-transcript-api
+huggingface_hub
+langchain
+langchain-community
+python-dotenv
