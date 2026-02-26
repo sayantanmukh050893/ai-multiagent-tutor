@@ -1,6 +1,8 @@
-from langchain_community.llms import HuggingFaceHub
+from crewai import LLM
 
-llm = HuggingFaceHub(
-    repo_id="mistralai/Mistral-7B-Instruct-v0.2",
-    model_kwargs={"temperature": 0.5, "max_new_tokens": 2048}
+llm = LLM(
+    model="groq/llama-3.1-8b-instant",
+    temperature=0.5,
+    max_tokens=2048,
+    tool_choice="none"
 )
